@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.Text?>
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fieldMap.widget.FieldMapWidget" fx:id="root">
+    <Text text="Please note that you should use this widget as if you were part of the red alliance, no matter your actual alliance."/>
+    <ImageView fx:id="fieldImage">
+        <image>
+            <Image url="@field.png"/>
+        </image>
+    </ImageView>
+</VBox>

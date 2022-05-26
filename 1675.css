@@ -1,0 +1,9 @@
+@import "/edu/wpi/first/shuffleboard/app/dark.css";
+/* https://github.com/wpilibsuite/shuffleboard/blob/main/app/src/main/resources/edu/wpi/first/shuffleboard/app/dark.css */
+.root {
+    -swatch-100: #663d00;
+    -swatch-200: #663d00;
+    -swatch-300: #ff8c1a;
+    -swatch-400: #e67300;
+    -swatch-500: #b35900;
+}

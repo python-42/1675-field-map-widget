@@ -5,9 +5,9 @@ import edu.wpi.first.shuffleboard.api.widget.ParametrizedController;
 import edu.wpi.first.shuffleboard.api.widget.SimpleAnnotatedWidget;
 import fieldMap.widget.data.AutoOption;
 import javafx.fxml.FXML;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
 
 
 @Description(name = "1675FieldMap", dataTypes = AutoOption.class)
@@ -21,10 +21,11 @@ public final class FieldMapWidget extends SimpleAnnotatedWidget<AutoOption>{
     private ImageView fieldImage;
 
     @FXML
+    private Text msg;
+
+    @FXML
     private void initialize() {
-        //Image image = new Image("file:/c/Dev/field-map-widget/src/main/resources/fieldMap/widget/field.png");
-        //fieldImage.setImage(image);
-       
+        
     }
 
     @Override
